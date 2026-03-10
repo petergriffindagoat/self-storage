@@ -1,0 +1,9 @@
+export { EmailCapture } from "./EmailCapture";
+export { FinalCTA } from "./FinalCTA";
+export { Footer } from "./Footer";
+export { Hero } from "./Hero";
+export { HowItWorks } from "./HowItWorks";
+export { ProblemSection } from "./ProblemSection";
+export { SocialProof } from "./SocialProof";
+export { WhatYouGet } from "./WhatYouGet";
+export { WhoIsThisFor } from "./WhoIsThisFor";
