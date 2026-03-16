@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Floating, Parallax, PulseGlow, ScrollReveal } from "@/components/ui/motion";
 import { cn } from "@/lib/utils";
-import type { FormState } from "@/actions/email";
+import type { FormState } from "@/actions/types";
 
 interface HeroProps {
   formAction: (formData: FormData) => void;
@@ -82,7 +82,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
                   ✓ {state.message}
                 </p>
                 <p className="text-sm mt-2" style={{ color: "var(--color-slate-light)" }}>
-                  We&rsquo;ll reach out within 24 hours.
+                  Check your inbox — we&rsquo;ve sent you everything you need.
                 </p>
               </div>
             ) : (
@@ -121,7 +121,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              We&rsquo;ll reach out within 24 hours. No pitch decks. Just a real conversation.
+              Submit your email and we&rsquo;ll send you everything you need to get started.
             </p>
           </div>
         </ScrollReveal>

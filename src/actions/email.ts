@@ -1,16 +1,7 @@
 "use server";
 
 import { sendLeadNotification } from "@/lib/email";
-
-export interface FormState {
-  status: "idle" | "success" | "error";
-  message: string;
-}
-
-export const initialState: FormState = {
-  status: "idle",
-  message: "",
-};
+import type { FormState } from "./types";
 
 export async function submitEmail(
   _prevState: FormState,
@@ -38,6 +29,6 @@ export async function submitEmail(
 
   return {
     status: "success",
-    message: "We've got your email. Expect to hear from us within 24 hours.",
+    message: "Check your inbox! We've sent you everything you need to get started.",
   };
 }

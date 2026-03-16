@@ -1,7 +1,8 @@
 "use client";
 
 import { useActionState } from "react";
-import { submitEmail, initialState } from "@/actions/email";
+import { submitEmail } from "@/actions/email";
+import { initialState } from "@/actions/types";
 import {
   EmailCapture,
   FinalCTA,
@@ -10,6 +11,7 @@ import {
   HowItWorks,
   ProblemSection,
   SocialProof,
+  VideoSection,
   WhatYouGet,
   WhoIsThisFor,
 } from "@/components/sections";
@@ -22,6 +24,7 @@ export default function Page() {
   return (
     <main>
       <Hero {...formProps} />
+      <VideoSection />
       <ProblemSection />
       <WhatYouGet />
       <HowItWorks />

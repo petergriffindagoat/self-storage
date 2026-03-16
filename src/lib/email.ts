@@ -1,5 +1,6 @@
 import { Resend } from "resend";
 import { LeadNotificationTemplate } from "@/components/templates/email-template";
+import { LeadWelcomeTemplate } from "@/components/templates/lead-welcome-template";
 
 export async function sendLeadNotification(
   email: string
@@ -7,14 +8,24 @@ export async function sendLeadNotification(
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
 
-    const notifyEmail =
-      process.env.NOTIFY_EMAIL ?? process.env.FROM_EMAIL ?? "hello@selfstorage.help";
+    const fromEmail = process.env.FROM_EMAIL ?? "hello@selfstorage.help";
+    const notifyEmail = process.env.NOTIFY_EMAIL ?? fromEmail;
+    const paymentLink = process.env.PAYMENT_LINK ?? "#";
 
-    const { error } = await resend.emails.send({
-      from: process.env.FROM_EMAIL ?? "hello@selfstorage.help",
+    // Send notification to ourselves
+    await resend.emails.send({
+      from: fromEmail,
       to: [notifyEmail],
       subject: `New lead: ${email}`,
       react: LeadNotificationTemplate({ email }),
+    });
+
+    // Send welcome + pitch email to the lead
+    const { error } = await resend.emails.send({
+      from: fromEmail,
+      to: [email],
+      subject: "We help self storage facilities rank #1 on Google — here's how",
+      react: LeadWelcomeTemplate({ paymentLink }),
     });
 
     if (error) {

@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { PulseGlow, ScrollReveal } from "@/components/ui/motion";
-import type { FormState } from "@/actions/email";
+import type { FormState } from "@/actions/types";
 
 interface FinalCTAProps {
   formAction: (formData: FormData) => void;
@@ -108,7 +108,7 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              We&rsquo;ll be in touch within 24 hours.
+              Submit your email and check your inbox — we&rsquo;ll send you everything to get started.
             </p>
           </div>
         </ScrollReveal>

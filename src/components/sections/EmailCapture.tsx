@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { PulseGlow, ScrollReveal } from "@/components/ui/motion";
-import type { FormState } from "@/actions/email";
+import type { FormState } from "@/actions/types";
 
 interface EmailCaptureProps {
   formAction: (formData: FormData) => void;
@@ -59,7 +59,7 @@ export function EmailCapture({ formAction, isPending, state }: EmailCaptureProps
                   className="text-sm mt-2"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  We&rsquo;ll be in touch within 24 hours.
+                  Check your inbox — we&rsquo;ve sent you everything you need.
                 </p>
               </div>
             ) : (
@@ -101,7 +101,7 @@ export function EmailCapture({ formAction, isPending, state }: EmailCaptureProps
               className="mt-5 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              No pitch decks. No automated sequences. Just a real conversation.
+              Submit your email and we&rsquo;ll send you everything you need to get started.
             </p>
           </div>
         </ScrollReveal>

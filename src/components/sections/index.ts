@@ -5,5 +5,6 @@ export { Hero } from "./Hero";
 export { HowItWorks } from "./HowItWorks";
 export { ProblemSection } from "./ProblemSection";
 export { SocialProof } from "./SocialProof";
+export { VideoSection } from "./VideoSection";
 export { WhatYouGet } from "./WhatYouGet";
 export { WhoIsThisFor } from "./WhoIsThisFor";
