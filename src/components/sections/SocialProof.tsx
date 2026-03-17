@@ -5,29 +5,29 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 const testimonials = [
   {
     quote:
-      "We went from 68% occupancy to 91% in about four months. The phone started ringing from people I&rsquo;d never reached before — people who just searched and found us first. We haven&rsquo;t changed our ad spend at all.",
-    name: "Randy Kowalski",
-    title: "Owner, Lakeview Self Storage",
-    location: "Appleton, WI",
-    initials: "RK",
+      "Pickfords is the UK&rsquo;s largest removal and storage brand — over 400 years in business. When they needed organic local visibility built from scratch, we built it. From zero clicks and impressions to 490,000+. The same system that works for the biggest name in UK storage works for an independent facility in Texas, Ohio, or Florida.",
+    name: "Pickfords",
+    title: "UK&rsquo;s Largest Removal &amp; Storage Brand",
+    location: "0 → 490,000+ clicks &amp; impressions",
+    initials: "PF",
     size: "large",
   },
   {
     quote:
-      "I manage four locations. Organic calls across all sites are up 40% — nothing paid. That&rsquo;s the number I kept chasing with ads and never hit.",
-    name: "Denise Trujillo",
-    title: "Operations Director, Summit Storage Group",
-    location: "Albuquerque, NM",
-    initials: "DT",
+      "Whether you have one facility or fifteen, the system scales. One strategy, multiple markets — no starting from zero each time you want to grow to a new city.",
+    name: "Multi-Location Ready",
+    title: "Scalable Across All Your Markets",
+    location: "0 → 12.2k+ organic visits",
+    initials: "ML",
     size: "small",
   },
   {
     quote:
-      "We&rsquo;re now ranking above facilities that have been open twice as long. I used to think the big brands had an unfair structural advantage. Turns out the advantage was just visibility, and you can close that gap.",
-    name: "Marcus Webb",
-    title: "Founder, WebbStore Storage",
-    location: "Greenville, SC",
-    initials: "MW",
+      "We only take on clients where we&rsquo;re confident we can deliver — which is exactly why we do the audit first. If you&rsquo;re not in the top 5 Map Pack by month 6, month 7 is on us.",
+    name: "The Month 7 Guarantee",
+    title: "Skin in the game. Not just a contract.",
+    location: "US market focused",
+    initials: "G",
     size: "small",
   },
 ];
@@ -47,14 +47,14 @@ export function SocialProof() {
               className="heading text-4xl sm:text-5xl font-normal mb-4"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Operators who{" "}
-              <span className="text-gradient">stopped guessing</span>
+              We&rsquo;ve Done This Before.{" "}
+              <span className="text-gradient">At Scale.</span>
             </h2>
             <p
               className="text-lg max-w-xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Results from real facilities. Not aggregated averages — individual stories.
+              Real results. Real operators. Built from zero.
             </p>
           </div>
         </ScrollReveal>
@@ -173,9 +173,9 @@ export function SocialProof() {
             style={{ backgroundColor: "oklch(100% 0 0 / 0.06)" }}
           >
             {[
-              { value: "60–90 days", label: "Typical timeframe to see measurable growth" },
+              { value: "$100 Audit", label: "Know exactly where you stand before you spend another dollar" },
+              { value: "Month 7 Free", label: "If you&rsquo;re not in top 5 Map Pack by month 6, we keep working" },
               { value: "USA-focused", label: "Built specifically for the US self storage market" },
-              { value: "No ad spend", label: "Results from organic channels, not paid" },
             ].map((signal) => (
               <div
                 key={signal.value}

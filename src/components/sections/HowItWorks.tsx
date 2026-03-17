@@ -5,21 +5,21 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 const steps = [
   {
     number: "1",
-    title: "Drop your email",
+    title: "Pay $100. Get the Audit.",
     description:
-      "That&rsquo;s all. No forms, no questionnaires, no pressure. Just your email and we take it from there.",
+      "Fill in the form. We do a full review of your Google Maps presence — listing health, website, citations, reviews, and exactly where your competitors are beating you. You receive a clear, plain-English report. You keep it regardless of what you decide next.",
   },
   {
     number: "2",
-    title: "We reach out personally",
+    title: "Review the Roadmap.",
     description:
-      "Within 24 hours someone from our team will be in touch. We&rsquo;ll take a look at your current situation and talk through what growth actually looks like for your market.",
+      "The audit tells you exactly what&rsquo;s holding you back and gives you a realistic timeline for your specific market. You&rsquo;ll know what top-3 looks like for your city before you spend another dollar. $100 credited toward month 1 if you move forward.",
   },
   {
     number: "3",
-    title: "Your facility starts getting found",
+    title: "Sign On. We Do the Work.",
     description:
-      "We build the kind of local presence that puts your facility in front of people who are ready to rent — and keeps it there, month after month, without the ad budget.",
+      "$1,500/month. We build the local presence that puts your facility in front of people ready to rent — and keeps it there, month after month, without ad spend. If you&rsquo;re not in the top 5 Map Pack by month 6, month 7 is on us.",
   },
 ];
 
@@ -45,14 +45,14 @@ export function HowItWorks() {
               className="heading text-4xl sm:text-5xl font-normal mb-4"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              How it{" "}
-              <span className="text-gradient">gets started</span>
+              Three Steps.{" "}
+              <span className="text-gradient">No Complexity.</span>
             </h2>
             <p
               className="text-lg"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Three steps. No commitment until you&rsquo;re ready.
+              Start with a $100 audit. No commitment until you&rsquo;re ready.
             </p>
           </div>
         </ScrollReveal>

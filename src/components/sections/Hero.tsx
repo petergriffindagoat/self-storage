@@ -44,8 +44,8 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
           <div className="flex justify-center mb-8">
             <Floating amplitude={6} duration={3.5}>
               <Badge variant="coral">
-                <span>📈</span>
-                Organic Growth for Self Storage Businesses
+                <span>📍</span>
+                For US Self-Storage Operators
               </Badge>
             </Floating>
           </div>
@@ -57,9 +57,9 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             className="heading text-5xl sm:text-6xl lg:text-7xl font-normal leading-[1.05] tracking-tight mb-6"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            More Calls. Fuller Units.
+            Fill Your Units.
             <br />
-            <span className="text-gradient">Zero Ad Spend.</span>
+            <span className="text-gradient">Own Google.</span>
           </h1>
         </ScrollReveal>
 
@@ -69,7 +69,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             className="text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
             style={{ color: "var(--color-slate-light)" }}
           >
-            We help self storage businesses across the US rank above their competitors organically — so your phone rings, your units fill, and the growth keeps coming without spending on ads every month.
+            Every month, 130,000+ Americans search for storage units in cities just like yours. Right now, someone nearby is typing &ldquo;storage units near me.&rdquo; A chain is showing up. You&rsquo;re not. Not because they&rsquo;re better &mdash; because their Google Maps listing is optimised and yours isn&rsquo;t. That&rsquo;s the whole gap.
           </p>
         </ScrollReveal>
 
@@ -106,7 +106,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
                     disabled={isPending}
                     className="whitespace-nowrap w-full sm:w-auto"
                   >
-                    {isPending ? "Sending…" : "Let's Talk →"}
+                    {isPending ? "Sending…" : "Start With a $100 Audit →"}
                   </Button>
                 </PulseGlow>
               </form>
@@ -121,7 +121,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              Submit your email and we&rsquo;ll send you everything you need to get started.
+              $100 &mdash; credited back toward month 1 if you sign on. You keep the full report regardless.
             </p>
           </div>
         </ScrollReveal>
@@ -135,9 +135,9 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             )}
           >
             {[
-              { value: "More Calls", label: "Inbound from organic search" },
-              { value: "Higher Occupancy", label: "Without seasonal drop-offs" },
-              { value: "No Ad Spend", label: "Growth that compounds over time" },
+              { value: "44%", label: "of local searches click Map Pack — more than paid ads and organic combined" },
+              { value: "126%", label: "more traffic to top-3 listings vs every business ranked 4th and below" },
+              { value: "93%", label: "of renters check Google first — before they ever pick up the phone" },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
                 <p

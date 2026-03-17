@@ -5,39 +5,39 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 const outcomes = [
   {
     number: "01",
-    title: "Your phone starts ringing from organic search",
+    title: "Google Maps Profile Overhaul",
     description:
-      "People searching for storage near them find your facility first. Not an ad — a real, trusted result. These calls convert at a higher rate because the intent is already there.",
+      "Full GBP optimisation — categories, photos, unit descriptions, attributes, Q&amp;A, weekly posts. This alone can crack the Map Pack. &rarr; More calls from Maps.",
   },
   {
     number: "02",
-    title: "Occupancy climbs and stays high",
+    title: "Review Generation System",
     description:
-      "Organic visibility doesn&rsquo;t turn off during slow seasons. A strong local presence keeps leads coming in year-round, flattening the seasonal dips that kill cash flow.",
+      "A repeatable process to get happy tenants leaving Google reviews consistently. Reviews are a direct ranking signal your competitors aren&rsquo;t using. &rarr; Higher trust + rankings.",
   },
   {
     number: "03",
-    title: "You outrank national chains in your own market",
+    title: "Location &amp; Unit Pages",
     description:
-      "Public Storage has the budget. You have the local advantage. When that advantage is properly built out, independent facilities regularly rank above national brands for the searches that matter most.",
+      "Purpose-built pages targeting &ldquo;storage units in [your city]&rdquo; and nearby neighborhoods — written for Google and real renters. &rarr; Organic search visibility.",
   },
   {
     number: "04",
-    title: "Growth that doesn't stop when you stop paying",
+    title: "Local Citation Cleanup",
     description:
-      "Unlike ads, organic rankings compound. The work done in month three still pays off in month eighteen. You build an asset — not a dependency.",
+      "Your name, address, and phone must match across every directory. Inconsistencies are silently dragging down your rankings right now. &rarr; Ranking stability.",
   },
   {
     number: "05",
-    title: "Qualified leads, not just clicks",
+    title: "Technical Site Fixes",
     description:
-      "People who find you through local search are looking for a unit right now, in your area, with your access hours. These aren&rsquo;t browsers — they&rsquo;re buyers.",
+      "Mobile speed, schema markup, Core Web Vitals — the foundations Google needs to trust and rank your site above competitors. &rarr; Better rankings, lower bounce.",
   },
   {
     number: "06",
-    title: "Revenue growth you can actually track",
+    title: "Monthly Ranking Reports",
     description:
-      "Every call, every form fill, every unit rental tied back to organic search is measurable. You see exactly what&rsquo;s working and where the growth is coming from.",
+      "Plain-English reports showing where you rank, how many people found you, and what moved. Occupancy-relevant data only. &rarr; Full visibility on progress.",
   },
 ];
 
@@ -51,14 +51,14 @@ export function WhatYouGet() {
               className="heading text-4xl sm:text-5xl font-normal mb-4"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              What changes when{" "}
-              <span className="text-gradient">it actually works</span>
+              No SEO Jargon.{" "}
+              <span className="text-gradient">We Work for Outcomes.</span>
             </h2>
             <p
               className="text-lg max-w-2xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Not SEO jargon. Not rankings for their own sake. Here&rsquo;s what the business actually looks like on the other side.
+              Six things that move occupancy. Nothing that doesn&rsquo;t. $1,500/month.
             </p>
           </div>
         </ScrollReveal>

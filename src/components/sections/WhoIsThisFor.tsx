@@ -4,36 +4,36 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 
 const idealFor = [
   {
+    icon: "📈",
+    title: "You want your business to compound",
+    description:
+      "You&rsquo;re willing to invest 6 months to own your local market instead of renting visibility month to month. You think in years. You want a business that scales without constantly feeding it cash.",
+  },
+  {
     icon: "🏢",
-    title: "Independent facility owners",
+    title: "You own facilities with headroom to grow",
     description:
-      "You own one or two properties and compete against national chains on a fraction of their marketing budget. You don&rsquo;t need to outspend them — you need to outrank them locally.",
+      "You have one or more locations and occupancy isn&rsquo;t where it should be. You want inbound calls from Google finding you — not a budget you reset every month.",
   },
   {
-    icon: "🗺️",
-    title: "Multi-location operators",
+    icon: "💸",
+    title: "You're tired of ad spend that disappears",
     description:
-      "You have three to fifteen locations and need organic visibility across multiple markets — without rebuilding a strategy from scratch for each one.",
+      "The moment you pause your ads, the leads stop. You&rsquo;re done renting attention. You want something that keeps working after the work is done.",
   },
   {
-    icon: "📊",
-    title: "Managers responsible for occupancy",
+    icon: "🤝",
+    title: "You're willing to be involved",
     description:
-      "Your job is to fill units. You need a reliable, documented source of inbound leads that doesn&rsquo;t fluctuate with ad budgets or algorithm changes.",
-  },
-  {
-    icon: "💼",
-    title: "Investors acquiring storage properties",
-    description:
-      "You want to understand how organic lead generation can reduce reliance on paid channels and improve the long-term revenue profile of what you&rsquo;re buying.",
+      "You&rsquo;re prepared to respond to reviews and share access — the small things that make local SEO work. You don&rsquo;t need to do the heavy lifting, but you&rsquo;re not completely hands-off either.",
   },
 ];
 
 const notFor = [
-  "You expect results without any involvement from your side",
-  "You want to keep running ads and just layer a little SEO on top",
-  "You&rsquo;re brand new with zero web presence and aren&rsquo;t ready to invest in building one",
-  "You&rsquo;re already fully booked and have no interest in growing beyond that",
+  "You&rsquo;re still deciding whether local search actually matters for your business",
+  "You want results in 30 days and won&rsquo;t wait for anything longer",
+  "You think SEO just happens without any input or access from your side",
+  "You&rsquo;re more invested in running ads than building a business that&rsquo;s self-sufficient",
 ];
 
 export function WhoIsThisFor() {
@@ -46,14 +46,14 @@ export function WhoIsThisFor() {
               className="heading text-4xl sm:text-5xl font-normal mb-4"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Is this{" "}
-              <span className="text-gradient">right for you?</span>
+              We Work With{" "}
+              <span className="text-gradient">One Type of Operator.</span>
             </h2>
             <p
               className="text-lg max-w-xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              We work best with a specific type of operator. See if that&rsquo;s you.
+              We&rsquo;d rather be honest upfront than take on a client we can&rsquo;t serve well.
             </p>
           </div>
         </ScrollReveal>
@@ -166,7 +166,7 @@ export function WhoIsThisFor() {
                   className="text-sm leading-relaxed italic"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  If you&rsquo;re serious about growing your occupancy through channels you actually own, we&rsquo;re serious about making that happen. It starts with a conversation.
+                  If you&rsquo;re serious about owning your local market, we&rsquo;re serious about getting you there. It starts with a $100 audit — and you keep the report either way.
                 </p>
               </div>
             </ScrollReveal>

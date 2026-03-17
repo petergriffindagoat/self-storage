@@ -12,13 +12,13 @@ export function VideoSection() {
               className="text-sm font-semibold uppercase tracking-widest mb-3"
               style={{ color: "var(--color-coral)" }}
             >
-              See It In Action
+              Watch Before You Decide
             </p>
             <h2
               className="heading text-3xl sm:text-4xl font-normal"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Watch how we grow self storage businesses
+              90 seconds. Map Pack stat. Real before &amp; after.
             </h2>
           </div>
         </ScrollReveal>
@@ -34,7 +34,8 @@ export function VideoSection() {
             }}
           >
             <iframe
-              src="https://www.youtube.com/embed/nLnp0tpZ0ok"
+              // src="https://www.youtube.com/embed/nLnp0tpZ0ok"
+              src="https://www.youtube.com/embed/Yqy-RZzy4I8"
               title="How we grow self storage businesses with SEO"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen

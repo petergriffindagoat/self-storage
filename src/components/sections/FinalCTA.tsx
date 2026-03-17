@@ -42,11 +42,9 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
             className="heading text-4xl sm:text-5xl lg:text-6xl font-normal leading-tight mb-6"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            Your next renter is searching
+            Fill Your Units.
             <br />
-            <span className="text-gradient">right now.</span>
-            <br />
-            Will they find you?
+            <span className="text-gradient">Without Burning Revenue.</span>
           </h2>
         </ScrollReveal>
 
@@ -55,7 +53,7 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
             className="text-lg mb-10 max-w-2xl mx-auto"
             style={{ color: "var(--color-slate-light)" }}
           >
-            Every day your facility doesn&rsquo;t appear at the top of local search is a day that rental goes somewhere else. Let&rsquo;s change that.
+            Drop your email. We&rsquo;ll reach out to get started on the $100 audit — the clearest $100 you&rsquo;ll spend on your business this year.
           </p>
         </ScrollReveal>
 
@@ -94,7 +92,7 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
                     disabled={isPending}
                     className="whitespace-nowrap w-full sm:w-auto"
                   >
-                    {isPending ? "Sending…" : "Reach Out →"}
+                    {isPending ? "Sending…" : "Get in Touch →"}
                   </Button>
                 </PulseGlow>
               </form>
@@ -108,7 +106,7 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              Submit your email and check your inbox — we&rsquo;ll send you everything to get started.
+              $100 audit. Keep the report either way. $100 credited if you move forward.
             </p>
           </div>
         </ScrollReveal>

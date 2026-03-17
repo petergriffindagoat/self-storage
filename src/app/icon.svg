@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="7" fill="#1a1a2e"/>
+
+  <!-- Storage unit grid: 2x2 unit doors with handles -->
+  <!-- Top-left unit -->
+  <rect x="4" y="5" width="11" height="10" rx="1.5" fill="#E07A5F" opacity="0.9"/>
+  <rect x="8.5" y="8" width="2" height="4" rx="0.5" fill="#1a1a2e" opacity="0.4"/>
+
+  <!-- Top-right unit -->
+  <rect x="17" y="5" width="11" height="10" rx="1.5" fill="#E07A5F" opacity="0.7"/>
+  <rect x="21.5" y="8" width="2" height="4" rx="0.5" fill="#1a1a2e" opacity="0.4"/>
+
+  <!-- Bottom-left unit -->
+  <rect x="4" y="17" width="11" height="10" rx="1.5" fill="#E07A5F" opacity="0.5"/>
+  <rect x="8.5" y="20" width="2" height="4" rx="0.5" fill="#1a1a2e" opacity="0.4"/>
+
+  <!-- Bottom-right unit -->
+  <rect x="17" y="17" width="11" height="10" rx="1.5" fill="#E07A5F" opacity="0.35"/>
+  <rect x="21.5" y="20" width="2" height="4" rx="0.5" fill="#1a1a2e" opacity="0.4"/>
+</svg>

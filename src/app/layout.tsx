@@ -16,40 +16,40 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Self Storage Growth | More Calls, Fuller Units | selfstorage.help",
+  title: "Fill Your Units. Own Google. | selfstorage.help",
   description:
-    "We help self storage businesses across the USA rank above their competitors and generate more calls — without ad spend. Sustained organic growth built for storage facility owners.",
+    "Every month, 130,000+ Americans search for storage units. We get independent US operators into the Google Maps top 3 — so your phone rings without ad spend. Starts with a $100 audit.",
   metadataBase: new URL("https://selfstorage.help"),
   keywords: [
-    "self storage marketing",
-    "storage facility lead generation",
-    "self storage organic growth",
-    "storage unit local ranking",
-    "self storage more calls",
-    "storage facility occupancy growth",
+    "self storage Google Maps ranking",
+    "storage facility local SEO",
+    "self storage Map Pack",
+    "storage unit Google Business Profile",
+    "fill storage units organically",
+    "self storage occupancy growth",
     "self storage digital marketing USA",
   ],
   openGraph: {
     type: "website",
     url: "https://selfstorage.help",
-    title: "Self Storage Growth | More Calls, Fuller Units | selfstorage.help",
+    title: "Fill Your Units. Own Google. | selfstorage.help",
     description:
-      "Organic growth for self storage businesses in the US. More calls, higher occupancy, zero ad spend dependency.",
+      "Get your storage facility into the Google Maps top 3. More calls, fuller units, zero ad spend dependency. Starts with a $100 audit.",
     siteName: "selfstorage.help",
     images: [
       {
         url: "https://selfstorage.help/og-image.png",
         width: 1200,
         height: 630,
-        alt: "selfstorage.help — Organic Growth for Self Storage Businesses",
+        alt: "selfstorage.help — Fill Your Units. Own Google.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Self Storage Growth | More Calls, Fuller Units",
+    title: "Fill Your Units. Own Google. | selfstorage.help",
     description:
-      "We help independent storage facility owners generate more calls and fill units organically — without running ads.",
+      "Get your US storage facility into the Google Maps top 3. Starts with a $100 audit — keep the report either way.",
     images: ["https://selfstorage.help/og-image.png"],
   },
   robots: {
