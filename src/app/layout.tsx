@@ -18,7 +18,7 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "Fill Your Units. Own Google. | selfstorage.help",
   description:
-    "Every month, 130,000+ Americans search for storage units. We get independent US operators into the Google Maps top 3 — so your phone rings without ad spend. Starts with a $100 audit.",
+    "Every month, 130,000+ Americans search for storage units. We get independent US operators into the Google Maps top 3 so your phone rings without ad spend. Starts with a $100 audit.",
   metadataBase: new URL("https://selfstorage.help"),
   keywords: [
     "self storage Google Maps ranking",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: "https://selfstorage.help/og-image.png",
         width: 1200,
         height: 630,
-        alt: "selfstorage.help — Fill Your Units. Own Google.",
+        alt: "selfstorage.help. Fill Your Units. Own Google.",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fill Your Units. Own Google. | selfstorage.help",
     description:
-      "Get your US storage facility into the Google Maps top 3. Starts with a $100 audit — keep the report either way.",
+      "Get your US storage facility into the Google Maps top 3. Starts with a $100 audit. Keep the report either way.",
     images: ["https://selfstorage.help/og-image.png"],
   },
   robots: {

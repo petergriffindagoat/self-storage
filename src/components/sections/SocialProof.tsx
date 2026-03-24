@@ -5,7 +5,7 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 const testimonials = [
   {
     quote:
-      "Pickfords is the UK's largest removal and storage brand — over 400 years in business. When they needed organic local visibility built from scratch, we built it. From zero clicks and impressions to 490,000+. The same system that works for the biggest name in UK storage works for an independent facility in Texas, Ohio, or Florida.",
+      "Pickfords is the UK's largest removal and storage brand, with over 400 years in business. When they needed organic local visibility built from scratch, we built it. From zero clicks and impressions to 490,000+. The same system that works for the biggest name in UK storage works for an independent facility in Texas, Ohio, or Florida.",
     name: "Pickfords",
     title: "UK's Largest Removal & Storage Brand",
     location: "0 → 490,000+ clicks & impressions",
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      "Whether you have one facility or fifteen, the system scales. One strategy, multiple markets — no starting from zero each time you want to grow to a new city.",
+      "Whether you have one facility or fifteen, the system scales. One strategy, multiple markets. No starting from zero each time you want to grow to a new city.",
     name: "Multi-Location Ready",
     title: "Scalable Across All Your Markets",
     location: "0 → 12.2k+ organic visits",
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     quote:
-      "We only take on clients where we're confident we can deliver — which is exactly why we do the audit first. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
+      "We only take on clients where we're confident we can deliver, which is exactly why we do the audit first. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
     name: "The Month 7 Guarantee",
     title: "Skin in the game. Not just a contract.",
     location: "US market focused",
@@ -59,7 +59,7 @@ export function SocialProof() {
           </div>
         </ScrollReveal>
 
-        {/* Featured testimonial — full width, raw feel */}
+        {/* Featured testimonial - full width, raw feel */}
         <ScrollReveal>
           <div
             className="relative mb-8 rounded-2xl p-8 sm:p-12 overflow-hidden"
@@ -110,7 +110,7 @@ export function SocialProof() {
           </div>
         </ScrollReveal>
 
-        {/* Smaller testimonials — asymmetric grid */}
+        {/* Smaller testimonials - asymmetric grid */}
         <StaggerReveal className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-16">
           {rest.map((t, i) => (
             <StaggerItem key={t.name}>

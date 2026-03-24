@@ -20,7 +20,7 @@ export function LeadWelcomeTemplate({ paymentLink }: LeadWelcomeTemplateProps) {
   return (
     <Html>
       <Head />
-      <Preview>We help self storage facilities rank #1 on Google — without ad spend</Preview>
+      <Preview>We help self storage facilities rank #1 on Google, without ad spend</Preview>
       <Body style={bodyStyle}>
         <Container style={containerStyle}>
           <Section style={headerStyle}>
@@ -29,7 +29,7 @@ export function LeadWelcomeTemplate({ paymentLink }: LeadWelcomeTemplateProps) {
 
           <Section style={contentStyle}>
             <Heading style={headingStyle}>
-              We get your facility to the top of Google — organically.
+              We get your facility to the top of Google, organically.
             </Heading>
 
             <Text style={paragraphStyle}>
@@ -38,8 +38,8 @@ export function LeadWelcomeTemplate({ paymentLink }: LeadWelcomeTemplateProps) {
 
             <Text style={paragraphStyle}>
               Thanks for reaching out. At <strong>selfstorage.help</strong>, we specialize in
-              SEO for self storage companies across the US — helping facilities like yours rank
-              above competitors in local search, so your phone rings and your units stay full.
+              SEO for self storage companies across the US, helping facilities like yours rank
+              above competitors in local search so your phone rings and your units stay full.
             </Text>
 
             <Text style={paragraphStyle}>
@@ -48,16 +48,16 @@ export function LeadWelcomeTemplate({ paymentLink }: LeadWelcomeTemplateProps) {
 
             <ul style={listStyle}>
               <li style={listItemStyle}>
-                <strong>Local SEO</strong> — rank for &quot;self storage near me&quot; in your specific market
+                <strong>Local SEO:</strong> rank for &quot;self storage near me&quot; in your specific market
               </li>
               <li style={listItemStyle}>
-                <strong>Google Business Profile optimization</strong> — show up in the map pack above your competitors
+                <strong>Google Business Profile optimization:</strong> show up in the map pack above your competitors
               </li>
               <li style={listItemStyle}>
-                <strong>Content strategy</strong> — pages that attract high-intent renters actively searching for storage
+                <strong>Content strategy:</strong> pages that attract high-intent renters actively searching for storage
               </li>
               <li style={listItemStyle}>
-                <strong>Ongoing growth</strong> — unlike ads, organic rankings compound over time and keep delivering
+                <strong>Ongoing growth:</strong> unlike ads, organic rankings compound over time and keep delivering
               </li>
             </ul>
 
@@ -73,16 +73,16 @@ export function LeadWelcomeTemplate({ paymentLink }: LeadWelcomeTemplateProps) {
 
             <Section style={buttonContainerStyle}>
               <Button href={paymentLink} style={buttonStyle}>
-                Get Started — Make Payment →
+                Get Started and Make Payment
               </Button>
             </Section>
 
             <Text style={paragraphStyle}>
-              Have questions first? Just reply to this email — we&apos;re happy to chat.
+              Have questions first? Just reply to this email. We&apos;re happy to chat.
             </Text>
 
             <Text style={signatureStyle}>
-              — The team at selfstorage.help
+              The team at selfstorage.help
             </Text>
           </Section>
 

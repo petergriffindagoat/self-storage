@@ -13,7 +13,7 @@ const idealFor = [
     icon: "🏢",
     title: "You own facilities with headroom to grow",
     description:
-      "You have one or more locations and occupancy isn't where it should be. You want inbound calls from Google finding you — not a budget you reset every month.",
+      "You have one or more locations and occupancy isn't where it should be. You want inbound calls from Google finding you, not a budget you reset every month.",
   },
   {
     icon: "💸",
@@ -25,7 +25,7 @@ const idealFor = [
     icon: "🤝",
     title: "You're willing to be involved",
     description:
-      "You're prepared to respond to reviews and share access — the small things that make local SEO work. You don't need to do the heavy lifting, but you're not completely hands-off either.",
+      "You're prepared to respond to reviews and share access. The small things that make local SEO work. You don't need to do the heavy lifting, but you're not completely hands-off either.",
   },
 ];
 
@@ -166,7 +166,7 @@ export function WhoIsThisFor() {
                   className="text-sm leading-relaxed italic"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  If you're serious about owning your local market, we're serious about getting you there. It starts with a $100 audit — and you keep the report either way.
+                  If you're serious about owning your local market, we're serious about getting you there. It starts with a $100 audit, and you keep the report either way.
                 </p>
               </div>
             </ScrollReveal>

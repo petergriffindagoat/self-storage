@@ -24,7 +24,7 @@ export async function sendLeadNotification(
     const { error } = await resend.emails.send({
       from: fromEmail,
       to: [email],
-      subject: "We help self storage facilities rank #1 on Google — here's how",
+      subject: "We help self storage facilities rank #1 on Google. Here's how.",
       react: LeadWelcomeTemplate({ paymentLink }),
     });
 

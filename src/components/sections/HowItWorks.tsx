@@ -7,7 +7,7 @@ const steps = [
     number: "1",
     title: "Pay $100. Get the Audit.",
     description:
-      "Fill in the form. We do a full review of your Google Maps presence — listing health, website, citations, reviews, and exactly where your competitors are beating you. You receive a clear, plain-English report. You keep it regardless of what you decide next.",
+      "Fill in the form. We do a full review of your Google Maps presence: listing health, website, citations, reviews, and exactly where your competitors are beating you. You receive a clear, plain-English report. You keep it regardless of what you decide next.",
   },
   {
     number: "2",
@@ -19,7 +19,7 @@ const steps = [
     number: "3",
     title: "Sign On. We Do the Work.",
     description:
-      "$1,500/month. We build the local presence that puts your facility in front of people ready to rent — and keeps it there, month after month, without ad spend. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
+      "$1,500/month. We build the local presence that puts your facility in front of people ready to rent and keeps it there, month after month, without ad spend. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
   },
 ];
 

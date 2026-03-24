@@ -7,7 +7,7 @@ const problems = [
     icon: "📵",
     title: "Your phone isn't ringing the way it should",
     description:
-      "If you're not in that top 3 Map Pack, those renters aren't comparing you to competitors. They're not finding you at all. National occupancy dropped to 82.2% in 2025 — but the operators bleeding units aren't the ones with bad facilities. They're the ones Google can't see.",
+      "If you're not in that top 3 Map Pack, those renters aren't comparing you to competitors. They're not finding you at all. National occupancy dropped to 82.2% in 2025. The operators bleeding units aren't the ones with bad facilities. They're the ones Google can't see.",
   },
   {
     icon: "💸",
@@ -19,13 +19,13 @@ const problems = [
     icon: "🔍",
     title: "You're running a great facility nobody can find",
     description:
-      "93% of renters check Google before they ever call. If your Maps listing is incomplete, your reviews are stale, or your website doesn't load fast on mobile — Google buries you. Not because your facility isn't good enough. Because it doesn't know you exist.",
+      "93% of renters check Google before they ever call. If your Maps listing is incomplete, your reviews are stale, or your website doesn't load fast on mobile, Google buries you. Not because your facility isn't good enough. Because it doesn't know you exist.",
   },
   {
     icon: "📉",
     title: "Every empty unit this month is gone forever",
     description:
-      "Storage is recurring income. A renter you miss in March doesn't just cost you March — it costs you the 14 months they would have stayed. That's not a small number. Visibility isn't a marketing problem. It's a revenue problem.",
+      "Storage is recurring income. A renter you miss in March doesn't just cost you March. It costs you the 14 months they would have stayed. That's not a small number. Visibility isn't a marketing problem. It's a revenue problem.",
   },
 ];
 

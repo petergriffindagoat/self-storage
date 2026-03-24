@@ -19,7 +19,7 @@ export function LeadNotificationTemplate({ email }: LeadNotificationTemplateProp
   return (
     <Html>
       <Head />
-      <Preview>New lead from selfstorage.help — {email}</Preview>
+      <Preview>New lead from selfstorage.help: {email}</Preview>
       <Body style={bodyStyle}>
         <Container style={containerStyle}>
           <Section style={headerStyle}>
@@ -41,7 +41,7 @@ export function LeadNotificationTemplate({ email }: LeadNotificationTemplateProp
               Reach out within 24 hours. That&apos;s the window where intent is highest.
             </Text>
 
-            <Text style={signatureStyle}>— selfstorage.help</Text>
+            <Text style={signatureStyle}>selfstorage.help</Text>
           </Section>
 
           <Hr style={hrStyle} />

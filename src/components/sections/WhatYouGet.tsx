@@ -7,37 +7,37 @@ const outcomes = [
     number: "01",
     title: "Google Maps Profile Overhaul",
     description:
-      "Full GBP optimisation — categories, photos, unit descriptions, attributes, Q&A, weekly posts. This alone can crack the Map Pack. → More calls from Maps.",
+      "Full GBP optimisation across categories, photos, unit descriptions, attributes, Q&A, and weekly posts. This alone can crack the Map Pack and bring more calls from Maps.",
   },
   {
     number: "02",
     title: "Review Generation System",
     description:
-      "A repeatable process to get happy tenants leaving Google reviews consistently. Reviews are a direct ranking signal your competitors aren't using. → Higher trust + rankings.",
+      "A repeatable process to get happy tenants leaving Google reviews consistently. Reviews are a direct ranking signal your competitors aren't using. Higher trust, higher rankings.",
   },
   {
     number: "03",
     title: "Location & Unit Pages",
     description:
-      "Purpose-built pages targeting \u201Cstorage units in [your city]\u201D and nearby neighborhoods — written for Google and real renters. → Organic search visibility.",
+      "Purpose-built pages targeting \u201Cstorage units in [your city]\u201D and nearby neighborhoods, written for Google and real renters. Built for organic search visibility.",
   },
   {
     number: "04",
     title: "Local Citation Cleanup",
     description:
-      "Your name, address, and phone must match across every directory. Inconsistencies are silently dragging down your rankings right now. → Ranking stability.",
+      "Your name, address, and phone must match across every directory. Inconsistencies are silently dragging down your rankings right now. This fix brings ranking stability.",
   },
   {
     number: "05",
     title: "Technical Site Fixes",
     description:
-      "Mobile speed, schema markup, Core Web Vitals — the foundations Google needs to trust and rank your site above competitors. → Better rankings, lower bounce.",
+      "Mobile speed, schema markup, and Core Web Vitals: the foundations Google needs to trust and rank your site above competitors. Better rankings, lower bounce.",
   },
   {
     number: "06",
     title: "Monthly Ranking Reports",
     description:
-      "Plain-English reports showing where you rank, how many people found you, and what moved. Occupancy-relevant data only. → Full visibility on progress.",
+      "Plain-English reports showing where you rank, how many people found you, and what moved. Occupancy-relevant data only. Full visibility on progress.",
   },
 ];
 

@@ -53,7 +53,7 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
             className="text-lg mb-10 max-w-2xl mx-auto"
             style={{ color: "var(--color-slate-light)" }}
           >
-            Drop your email. We'll reach out to get started on the $100 audit — the clearest $100 you'll spend on your business this year.
+            Drop your email. We'll reach out to get started on the $100 audit. It's the clearest $100 you'll spend on your business this year.
           </p>
         </ScrollReveal>
 

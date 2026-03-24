@@ -69,7 +69,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             className="text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
             style={{ color: "var(--color-slate-light)" }}
           >
-            Every month, 130,000+ Americans search for storage units in cities just like yours. Right now, someone nearby is typing "storage units near me." A chain is showing up. You're not. Not because they're better — because their Google Maps listing is optimised and yours isn't. That's the whole gap.
+            Every month, 130,000+ Americans search for storage units in cities just like yours. Right now, someone nearby is typing "storage units near me." A chain is showing up. You're not. Not because they're better. Their Google Maps listing is optimised and yours isn't. That's the whole gap.
           </p>
         </ScrollReveal>
 
@@ -82,7 +82,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
                   ✓ {state.message}
                 </p>
                 <p className="text-sm mt-2" style={{ color: "var(--color-slate-light)" }}>
-                  Check your inbox — we've sent you everything you need.
+                  Check your inbox. We've sent you everything you need.
                 </p>
               </div>
             ) : (
@@ -121,7 +121,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              $100 — credited back toward month 1 if you sign on. You keep the full report regardless.
+              $100, credited back toward month 1 if you sign on. You keep the full report regardless.
             </p>
           </div>
         </ScrollReveal>
@@ -135,9 +135,9 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             )}
           >
             {[
-              { value: "44%", label: "of local searches click Map Pack — more than paid ads and organic combined" },
+              { value: "44%", label: "of local searches click Map Pack, more than paid ads and organic combined" },
               { value: "126%", label: "more traffic to top-3 listings vs every business ranked 4th and below" },
-              { value: "93%", label: "of renters check Google first — before they ever pick up the phone" },
+              { value: "93%", label: "of renters check Google first, before they ever pick up the phone" },
             ].map(({ value, label }) => (
               <div key={label} className="text-center">
                 <p
