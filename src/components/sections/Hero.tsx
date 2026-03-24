@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,6 +15,13 @@ interface HeroProps {
 }
 
 export function Hero({ formAction, isPending, state }: HeroProps) {
+  const [email, setEmail] = useState("");
+  const [showForm, setShowForm] = useState(false);
+
+  useEffect(() => {
+    if (state.status === "success") setShowForm(false);
+  }, [state.status]);
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden pt-20 pb-24">
       {/* Background gradient orbs */}
@@ -76,13 +84,24 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
         {/* Email Capture Form */}
         <ScrollReveal delay={0.4}>
           <div className="max-w-md mx-auto">
-            {state.status === "success" ? (
+            {state.status === "success" && !showForm ? (
               <div className="rounded-xl border border-green-500/30 bg-green-500/10 p-6">
                 <p className="text-green-400 font-semibold text-lg">
-                  ✓ {state.message}
+                  ✓ Email sent!
                 </p>
                 <p className="text-sm mt-2" style={{ color: "var(--color-slate-light)" }}>
                   Check your inbox. We've sent you everything you need.
+                </p>
+                <p className="text-sm mt-3" style={{ color: "var(--color-slate)" }}>
+                  Didn't receive it?{" "}
+                  <button
+                    type="button"
+                    onClick={() => setShowForm(true)}
+                    className="underline hover:opacity-80 transition-opacity"
+                    style={{ color: "var(--color-coral)" }}
+                  >
+                    Resend email
+                  </button>
                 </p>
               </div>
             ) : (
@@ -98,6 +117,8 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
                   required
                   autoComplete="email"
                   className="flex-1"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <PulseGlow className="rounded-lg">
                   <Button

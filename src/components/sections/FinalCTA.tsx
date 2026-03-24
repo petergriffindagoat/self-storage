@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { PulseGlow, ScrollReveal } from "@/components/ui/motion";
@@ -12,6 +13,13 @@ interface FinalCTAProps {
 }
 
 export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
+  const [email, setEmail] = useState("");
+  const [showForm, setShowForm] = useState(false);
+
+  useEffect(() => {
+    if (state.status === "success") setShowForm(false);
+  }, [state.status]);
+
   return (
     <section
       className="py-32 relative overflow-hidden"
@@ -59,16 +67,27 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
 
         <ScrollReveal delay={0.3}>
           <div className="max-w-md mx-auto">
-            {state.status === "success" ? (
+            {state.status === "success" && !showForm ? (
               <div className="rounded-xl border border-green-500/30 bg-green-500/10 p-8">
                 <p className="text-green-400 font-bold text-xl mb-2">
-                  ✓ Got it.
+                  ✓ Email sent!
                 </p>
                 <p
                   className="text-base"
                   style={{ color: "var(--color-slate-light)" }}
                 >
                   {state.message}
+                </p>
+                <p className="text-sm mt-3" style={{ color: "var(--color-slate)" }}>
+                  Didn't receive it?{" "}
+                  <button
+                    type="button"
+                    onClick={() => setShowForm(true)}
+                    className="underline hover:opacity-80 transition-opacity"
+                    style={{ color: "var(--color-coral)" }}
+                  >
+                    Resend email
+                  </button>
                 </p>
               </div>
             ) : (
@@ -84,6 +103,8 @@ export function FinalCTA({ formAction, isPending, state }: FinalCTAProps) {
                   required
                   autoComplete="email"
                   className="flex-1"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <PulseGlow className="rounded-lg">
                   <Button
