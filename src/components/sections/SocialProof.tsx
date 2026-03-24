@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion";
 
 const testimonials = [
@@ -19,15 +20,6 @@ const testimonials = [
     title: "Scalable Across All Your Markets",
     location: "0 → 12.2k+ organic visits",
     initials: "ML",
-    size: "small",
-  },
-  {
-    quote:
-      "We only take on clients where we're confident we can deliver, which is exactly why we do the audit first. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
-    name: "The Month 7 Guarantee",
-    title: "Skin in the game. Not just a contract.",
-    location: "US market focused",
-    initials: "G",
     size: "small",
   },
 ];
@@ -106,12 +98,34 @@ export function SocialProof() {
                   </p>
                 </div>
               </div>
+
+              <div className="mt-8">
+                <Image
+                  src="/assets/image_2.png"
+                  alt=""
+                  width={1600}
+                  height={467}
+                  className="w-full rounded-xl"
+                />
+              </div>
             </div>
           </div>
         </ScrollReveal>
 
+        <ScrollReveal>
+          <div className="mb-8">
+            <Image
+              src="/assets/image_3.png"
+              alt=""
+              width={1600}
+              height={647}
+              className="w-full rounded-2xl"
+            />
+          </div>
+        </ScrollReveal>
+
         {/* Smaller testimonials - asymmetric grid */}
-        <StaggerReveal className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-16">
+        <StaggerReveal className="grid grid-cols-1 gap-5 mb-16">
           {rest.map((t, i) => (
             <StaggerItem key={t.name}>
               <div

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ScrollReveal } from "@/components/ui/motion";
 
 export function VideoSection() {
@@ -7,19 +8,25 @@ export function VideoSection() {
     <section className="py-20">
       <div className="section-container">
         <ScrollReveal>
+          <div className="mb-10">
+            <Image
+              src="/assets/image_1.png"
+              alt=""
+              width={1170}
+              height={578}
+              className="w-full md:w-3/4 md:mx-auto rounded-2xl block"
+            />
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal>
           <div className="text-center mb-10">
             <p
               className="text-sm font-semibold uppercase tracking-widest mb-3"
               style={{ color: "var(--color-coral)" }}
             >
-              Watch Before You Decide
+              Watch & Choose the best for your business
             </p>
-            <h2
-              className="heading text-3xl sm:text-4xl font-normal"
-              style={{ fontFamily: "var(--font-heading)" }}
-            >
-              90 seconds. Map Pack stat. Real before & after.
-            </h2>
           </div>
         </ScrollReveal>
 
