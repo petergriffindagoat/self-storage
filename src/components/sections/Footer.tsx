@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer
       className="py-10 border-t"
-      style={{ borderColor: "oklch(100% 0 0 / 0.06)" }}
+      style={{ borderColor: "oklch(0% 0 0 / 0.08)" }}
     >
       <div className="section-container">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -32,7 +32,7 @@ export function Footer() {
               <li>
                 <a
                   href="/privacy"
-                  className="text-sm transition-colors duration-200 hover:text-white"
+                  className="text-sm transition-colors duration-200 hover:text-black"
                   style={{ color: "var(--color-slate)" }}
                 >
                   Privacy Policy
@@ -41,7 +41,7 @@ export function Footer() {
               <li>
                 <a
                   href="/terms"
-                  className="text-sm transition-colors duration-200 hover:text-white"
+                  className="text-sm transition-colors duration-200 hover:text-black"
                   style={{ color: "var(--color-slate)" }}
                 >
                   Terms
@@ -53,7 +53,7 @@ export function Footer() {
 
         <div
           className="mt-6 pt-6 border-t text-center"
-          style={{ borderColor: "oklch(100% 0 0 / 0.06)" }}
+          style={{ borderColor: "oklch(0% 0 0 / 0.08)" }}
         >
           <p className="text-xs" style={{ color: "var(--color-slate)" }}>
             &copy; {currentYear} selfstorage.help. All rights reserved.

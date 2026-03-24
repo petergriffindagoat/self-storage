@@ -18,7 +18,7 @@ export function VideoSection() {
               className="heading text-3xl sm:text-4xl font-normal"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              90 seconds. Map Pack stat. Real before &amp; after.
+              90 seconds. Map Pack stat. Real before & after.
             </h2>
           </div>
         </ScrollReveal>
@@ -27,20 +27,18 @@ export function VideoSection() {
           <div
             className="relative mx-auto rounded-2xl overflow-hidden"
             style={{
-              maxWidth: "800px",
-              aspectRatio: "16 / 9",
+              maxWidth: "360px",
+              aspectRatio: "9 / 16",
               border: "1px solid oklch(65% 0.2 30 / 0.2)",
               boxShadow: "0 0 60px oklch(65% 0.2 30 / 0.08)",
             }}
           >
-            <iframe
-              // src="https://www.youtube.com/embed/nLnp0tpZ0ok"
-              src="https://www.youtube.com/embed/Yqy-RZzy4I8"
-              title="How we grow self storage businesses with SEO"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
+            <video
+              src="https://i6fftmyqqekmpqcq.public.blob.vercel-storage.com/kritiiii.mp4"
+              controls
+              playsInline
               className="absolute inset-0 w-full h-full"
-              style={{ border: "none" }}
+              style={{ objectFit: "cover" }}
             />
           </div>
         </ScrollReveal>

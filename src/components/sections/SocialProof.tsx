@@ -5,10 +5,10 @@ import { ScrollReveal, StaggerItem, StaggerReveal } from "@/components/ui/motion
 const testimonials = [
   {
     quote:
-      "Pickfords is the UK&rsquo;s largest removal and storage brand — over 400 years in business. When they needed organic local visibility built from scratch, we built it. From zero clicks and impressions to 490,000+. The same system that works for the biggest name in UK storage works for an independent facility in Texas, Ohio, or Florida.",
+      "Pickfords is the UK's largest removal and storage brand — over 400 years in business. When they needed organic local visibility built from scratch, we built it. From zero clicks and impressions to 490,000+. The same system that works for the biggest name in UK storage works for an independent facility in Texas, Ohio, or Florida.",
     name: "Pickfords",
-    title: "UK&rsquo;s Largest Removal &amp; Storage Brand",
-    location: "0 → 490,000+ clicks &amp; impressions",
+    title: "UK's Largest Removal & Storage Brand",
+    location: "0 → 490,000+ clicks & impressions",
     initials: "PF",
     size: "large",
   },
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     quote:
-      "We only take on clients where we&rsquo;re confident we can deliver — which is exactly why we do the audit first. If you&rsquo;re not in the top 5 Map Pack by month 6, month 7 is on us.",
+      "We only take on clients where we're confident we can deliver — which is exactly why we do the audit first. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
     name: "The Month 7 Guarantee",
     title: "Skin in the game. Not just a contract.",
     location: "US market focused",
@@ -47,7 +47,7 @@ export function SocialProof() {
               className="heading text-4xl sm:text-5xl font-normal mb-4"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              We&rsquo;ve Done This Before.{" "}
+              We've Done This Before.{" "}
               <span className="text-gradient">At Scale.</span>
             </h2>
             <p
@@ -65,8 +65,8 @@ export function SocialProof() {
             className="relative mb-8 rounded-2xl p-8 sm:p-12 overflow-hidden"
             style={{
               background:
-                "linear-gradient(135deg, oklch(65% 0.2 30 / 0.07) 0%, oklch(40% 0.08 260 / 0.1) 100%)",
-              border: "1px solid oklch(65% 0.2 30 / 0.18)",
+                "linear-gradient(135deg, oklch(58% 0.2 30 / 0.07) 0%, oklch(40% 0.08 260 / 0.04) 100%)",
+              border: "1px solid oklch(58% 0.2 30 / 0.18)",
             }}
           >
             {/* Big quote mark */}
@@ -75,7 +75,7 @@ export function SocialProof() {
               style={{ color: "oklch(65% 0.2 30 / 0.12)", fontFamily: "Georgia, serif" }}
               aria-hidden="true"
             >
-              &ldquo;
+              "
             </span>
 
             <div className="relative z-10 max-w-3xl">
@@ -120,7 +120,7 @@ export function SocialProof() {
                   i === 0
                     ? {
                         backgroundColor: "var(--color-navy-card)",
-                        border: "1px solid oklch(100% 0 0 / 0.07)",
+                        border: "1px solid oklch(0% 0 0 / 0.08)",
                       }
                     : {
                         backgroundColor: "transparent",
@@ -132,7 +132,7 @@ export function SocialProof() {
                   className="text-base leading-relaxed mb-5 italic"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  &ldquo;{t.quote}&rdquo;
+                  "{t.quote}"
                 </blockquote>
 
                 <div className="flex items-center gap-3">
@@ -170,11 +170,11 @@ export function SocialProof() {
         <ScrollReveal>
           <div
             className="grid grid-cols-1 sm:grid-cols-3 gap-px overflow-hidden rounded-xl"
-            style={{ backgroundColor: "oklch(100% 0 0 / 0.06)" }}
+            style={{ backgroundColor: "oklch(0% 0 0 / 0.05)" }}
           >
             {[
               { value: "$100 Audit", label: "Know exactly where you stand before you spend another dollar" },
-              { value: "Month 7 Free", label: "If you&rsquo;re not in top 5 Map Pack by month 6, we keep working" },
+              { value: "Month 7 Free", label: "If you're not in top 5 Map Pack by month 6, we keep working" },
               { value: "USA-focused", label: "Built specifically for the US self storage market" },
             ].map((signal) => (
               <div

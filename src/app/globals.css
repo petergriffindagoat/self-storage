@@ -2,19 +2,19 @@
 
 @theme {
   /* === Color Palette === */
-  --color-navy: oklch(13% 0.04 260);
-  --color-navy-light: oklch(18% 0.04 260);
-  --color-navy-card: oklch(20% 0.04 260);
+  --color-navy: oklch(97% 0.008 240);
+  --color-navy-light: oklch(93% 0.012 240);
+  --color-navy-card: oklch(100% 0 0);
 
-  --color-coral: oklch(65% 0.2 30);
-  --color-coral-light: oklch(70% 0.18 30);
-  --color-coral-dark: oklch(58% 0.22 30);
+  --color-coral: oklch(58% 0.2 30);
+  --color-coral-light: oklch(65% 0.18 30);
+  --color-coral-dark: oklch(50% 0.22 30);
 
-  --color-slate: oklch(62% 0.03 240);
-  --color-slate-light: oklch(75% 0.02 240);
+  --color-slate: oklch(50% 0.03 240);
+  --color-slate-light: oklch(36% 0.025 240);
 
   --color-white: oklch(100% 0 0);
-  --color-off-white: oklch(97% 0.005 240);
+  --color-off-white: oklch(12% 0.02 240);
 
   /* === Font Families === */
   --font-heading: var(--font-instrument-serif);
@@ -29,8 +29,8 @@
   --radius-button: 0.5rem;
 
   /* === Shadows === */
-  --shadow-glow-coral: 0 0 40px oklch(65% 0.2 30 / 0.3);
-  --shadow-card: 0 4px 24px oklch(0% 0 0 / 0.3);
+  --shadow-glow-coral: 0 0 40px oklch(58% 0.2 30 / 0.25);
+  --shadow-card: 0 4px 24px oklch(0% 0 0 / 0.1);
 }
 
 /* === Base Styles === */
@@ -75,20 +75,21 @@ body {
 
 /* === Glow Border === */
 .glow-border {
-  border: 1px solid oklch(65% 0.2 30 / 0.3);
-  box-shadow: 0 0 20px oklch(65% 0.2 30 / 0.1);
+  border: 1px solid oklch(58% 0.2 30 / 0.3);
+  box-shadow: 0 0 20px oklch(58% 0.2 30 / 0.1);
 }
 
 /* === Card Base === */
 .card {
   background-color: var(--color-navy-card);
   border-radius: var(--radius-card);
-  border: 1px solid oklch(100% 0 0 / 0.06);
+  border: 1px solid oklch(0% 0 0 / 0.08);
+  box-shadow: 0 1px 4px oklch(0% 0 0 / 0.06);
 }
 
 /* === Text Gradient === */
 .text-gradient {
-  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-coral) 100%);
+  background: linear-gradient(135deg, oklch(18% 0.05 260) 0%, var(--color-coral) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -7,37 +7,37 @@ const outcomes = [
     number: "01",
     title: "Google Maps Profile Overhaul",
     description:
-      "Full GBP optimisation — categories, photos, unit descriptions, attributes, Q&amp;A, weekly posts. This alone can crack the Map Pack. &rarr; More calls from Maps.",
+      "Full GBP optimisation — categories, photos, unit descriptions, attributes, Q&A, weekly posts. This alone can crack the Map Pack. → More calls from Maps.",
   },
   {
     number: "02",
     title: "Review Generation System",
     description:
-      "A repeatable process to get happy tenants leaving Google reviews consistently. Reviews are a direct ranking signal your competitors aren&rsquo;t using. &rarr; Higher trust + rankings.",
+      "A repeatable process to get happy tenants leaving Google reviews consistently. Reviews are a direct ranking signal your competitors aren't using. → Higher trust + rankings.",
   },
   {
     number: "03",
-    title: "Location &amp; Unit Pages",
+    title: "Location & Unit Pages",
     description:
-      "Purpose-built pages targeting &ldquo;storage units in [your city]&rdquo; and nearby neighborhoods — written for Google and real renters. &rarr; Organic search visibility.",
+      "Purpose-built pages targeting \u201Cstorage units in [your city]\u201D and nearby neighborhoods — written for Google and real renters. → Organic search visibility.",
   },
   {
     number: "04",
     title: "Local Citation Cleanup",
     description:
-      "Your name, address, and phone must match across every directory. Inconsistencies are silently dragging down your rankings right now. &rarr; Ranking stability.",
+      "Your name, address, and phone must match across every directory. Inconsistencies are silently dragging down your rankings right now. → Ranking stability.",
   },
   {
     number: "05",
     title: "Technical Site Fixes",
     description:
-      "Mobile speed, schema markup, Core Web Vitals — the foundations Google needs to trust and rank your site above competitors. &rarr; Better rankings, lower bounce.",
+      "Mobile speed, schema markup, Core Web Vitals — the foundations Google needs to trust and rank your site above competitors. → Better rankings, lower bounce.",
   },
   {
     number: "06",
     title: "Monthly Ranking Reports",
     description:
-      "Plain-English reports showing where you rank, how many people found you, and what moved. Occupancy-relevant data only. &rarr; Full visibility on progress.",
+      "Plain-English reports showing where you rank, how many people found you, and what moved. Occupancy-relevant data only. → Full visibility on progress.",
   },
 ];
 
@@ -58,7 +58,7 @@ export function WhatYouGet() {
               className="text-lg max-w-2xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Six things that move occupancy. Nothing that doesn&rsquo;t. $1,500/month.
+              Six things that move occupancy. Nothing that doesn't. $1,500/month.
             </p>
           </div>
         </ScrollReveal>

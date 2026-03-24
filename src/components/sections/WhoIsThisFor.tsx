@@ -7,33 +7,33 @@ const idealFor = [
     icon: "📈",
     title: "You want your business to compound",
     description:
-      "You&rsquo;re willing to invest 6 months to own your local market instead of renting visibility month to month. You think in years. You want a business that scales without constantly feeding it cash.",
+      "You're willing to invest 6 months to own your local market instead of renting visibility month to month. You think in years. You want a business that scales without constantly feeding it cash.",
   },
   {
     icon: "🏢",
     title: "You own facilities with headroom to grow",
     description:
-      "You have one or more locations and occupancy isn&rsquo;t where it should be. You want inbound calls from Google finding you — not a budget you reset every month.",
+      "You have one or more locations and occupancy isn't where it should be. You want inbound calls from Google finding you — not a budget you reset every month.",
   },
   {
     icon: "💸",
     title: "You're tired of ad spend that disappears",
     description:
-      "The moment you pause your ads, the leads stop. You&rsquo;re done renting attention. You want something that keeps working after the work is done.",
+      "The moment you pause your ads, the leads stop. You're done renting attention. You want something that keeps working after the work is done.",
   },
   {
     icon: "🤝",
     title: "You're willing to be involved",
     description:
-      "You&rsquo;re prepared to respond to reviews and share access — the small things that make local SEO work. You don&rsquo;t need to do the heavy lifting, but you&rsquo;re not completely hands-off either.",
+      "You're prepared to respond to reviews and share access — the small things that make local SEO work. You don't need to do the heavy lifting, but you're not completely hands-off either.",
   },
 ];
 
 const notFor = [
-  "You&rsquo;re still deciding whether local search actually matters for your business",
-  "You want results in 30 days and won&rsquo;t wait for anything longer",
+  "You're still deciding whether local search actually matters for your business",
+  "You want results in 30 days and won't wait for anything longer",
   "You think SEO just happens without any input or access from your side",
-  "You&rsquo;re more invested in running ads than building a business that&rsquo;s self-sufficient",
+  "You're more invested in running ads than building a business that's self-sufficient",
 ];
 
 export function WhoIsThisFor() {
@@ -53,7 +53,7 @@ export function WhoIsThisFor() {
               className="text-lg max-w-xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              We&rsquo;d rather be honest upfront than take on a client we can&rsquo;t serve well.
+              We'd rather be honest upfront than take on a client we can't serve well.
             </p>
           </div>
         </ScrollReveal>
@@ -133,8 +133,8 @@ export function WhoIsThisFor() {
                   <div
                     className="flex items-start gap-3 p-4 rounded-lg border"
                     style={{
-                      borderColor: "oklch(100% 0 0 / 0.06)",
-                      backgroundColor: "oklch(100% 0 0 / 0.02)",
+                      borderColor: "oklch(0% 0 0 / 0.08)",
+                      backgroundColor: "oklch(0% 0 0 / 0.02)",
                     }}
                   >
                     <span
@@ -166,7 +166,7 @@ export function WhoIsThisFor() {
                   className="text-sm leading-relaxed italic"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  If you&rsquo;re serious about owning your local market, we&rsquo;re serious about getting you there. It starts with a $100 audit — and you keep the report either way.
+                  If you're serious about owning your local market, we're serious about getting you there. It starts with a $100 audit — and you keep the report either way.
                 </p>
               </div>
             </ScrollReveal>

@@ -34,7 +34,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
         className="gradient-orb w-[400px] h-[400px] bottom-[-100px] right-[-100px]"
         style={{
           background:
-            "radial-gradient(circle, oklch(40% 0.08 260 / 0.25) 0%, transparent 70%)",
+            "radial-gradient(circle, oklch(40% 0.08 260 / 0.06) 0%, transparent 70%)",
         }}
       />
 
@@ -69,7 +69,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
             className="text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-10"
             style={{ color: "var(--color-slate-light)" }}
           >
-            Every month, 130,000+ Americans search for storage units in cities just like yours. Right now, someone nearby is typing &ldquo;storage units near me.&rdquo; A chain is showing up. You&rsquo;re not. Not because they&rsquo;re better &mdash; because their Google Maps listing is optimised and yours isn&rsquo;t. That&rsquo;s the whole gap.
+            Every month, 130,000+ Americans search for storage units in cities just like yours. Right now, someone nearby is typing "storage units near me." A chain is showing up. You're not. Not because they're better — because their Google Maps listing is optimised and yours isn't. That's the whole gap.
           </p>
         </ScrollReveal>
 
@@ -82,7 +82,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
                   ✓ {state.message}
                 </p>
                 <p className="text-sm mt-2" style={{ color: "var(--color-slate-light)" }}>
-                  Check your inbox — we&rsquo;ve sent you everything you need.
+                  Check your inbox — we've sent you everything you need.
                 </p>
               </div>
             ) : (
@@ -121,7 +121,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
               className="mt-4 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              $100 &mdash; credited back toward month 1 if you sign on. You keep the full report regardless.
+              $100 — credited back toward month 1 if you sign on. You keep the full report regardless.
             </p>
           </div>
         </ScrollReveal>
@@ -131,7 +131,7 @@ export function Hero({ formAction, isPending, state }: HeroProps) {
           <div
             className={cn(
               "mt-16 flex flex-wrap justify-center gap-8 pt-8",
-              "border-t border-white/10"
+              "border-t border-black/10"
             )}
           >
             {[

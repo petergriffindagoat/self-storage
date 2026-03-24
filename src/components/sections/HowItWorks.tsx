@@ -13,13 +13,13 @@ const steps = [
     number: "2",
     title: "Review the Roadmap.",
     description:
-      "The audit tells you exactly what&rsquo;s holding you back and gives you a realistic timeline for your specific market. You&rsquo;ll know what top-3 looks like for your city before you spend another dollar. $100 credited toward month 1 if you move forward.",
+      "The audit tells you exactly what's holding you back and gives you a realistic timeline for your specific market. You'll know what top-3 looks like for your city before you spend another dollar. $100 credited toward month 1 if you move forward.",
   },
   {
     number: "3",
     title: "Sign On. We Do the Work.",
     description:
-      "$1,500/month. We build the local presence that puts your facility in front of people ready to rent — and keeps it there, month after month, without ad spend. If you&rsquo;re not in the top 5 Map Pack by month 6, month 7 is on us.",
+      "$1,500/month. We build the local presence that puts your facility in front of people ready to rent — and keeps it there, month after month, without ad spend. If you're not in the top 5 Map Pack by month 6, month 7 is on us.",
   },
 ];
 
@@ -52,7 +52,7 @@ export function HowItWorks() {
               className="text-lg"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Start with a $100 audit. No commitment until you&rsquo;re ready.
+              Start with a $100 audit. No commitment until you're ready.
             </p>
           </div>
         </ScrollReveal>

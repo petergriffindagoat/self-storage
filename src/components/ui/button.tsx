@@ -20,7 +20,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
               variant === "primary",
             "border border-[var(--color-coral)] text-[var(--color-coral)] hover:bg-[var(--color-coral)] hover:text-white focus-visible:ring-[var(--color-coral)]":
               variant === "outline",
-            "text-[var(--color-slate-light)] hover:text-white focus-visible:ring-white":
+            "text-[var(--color-slate-light)] hover:text-[var(--color-off-white)] focus-visible:ring-black/30":
               variant === "ghost",
           },
           {

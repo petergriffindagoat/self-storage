@@ -45,7 +45,7 @@ export function EmailCapture({ formAction, isPending, state }: EmailCaptureProps
               className="text-lg mb-8 max-w-xl mx-auto"
               style={{ color: "var(--color-slate-light)" }}
             >
-              Drop your email and we&rsquo;ll reach out to talk through what growth looks like for your facility — specifically, in your market.
+              Drop your email and we'll reach out to talk through what growth looks like for your facility — specifically, in your market.
             </p>
 
             {state.status === "success" ? (
@@ -59,7 +59,7 @@ export function EmailCapture({ formAction, isPending, state }: EmailCaptureProps
                   className="text-sm mt-2"
                   style={{ color: "var(--color-slate-light)" }}
                 >
-                  Check your inbox — we&rsquo;ve sent you everything you need.
+                  Check your inbox — we've sent you everything you need.
                 </p>
               </div>
             ) : (
@@ -101,7 +101,7 @@ export function EmailCapture({ formAction, isPending, state }: EmailCaptureProps
               className="mt-5 text-sm"
               style={{ color: "var(--color-slate)" }}
             >
-              Submit your email and we&rsquo;ll send you everything you need to get started.
+              Submit your email and we'll send you everything you need to get started.
             </p>
           </div>
         </ScrollReveal>

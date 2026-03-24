@@ -15,9 +15,9 @@ export function Badge({ className, variant = "coral", children, ...props }: Badg
         {
           "bg-[var(--color-coral)]/15 text-[var(--color-coral)] border border-[var(--color-coral)]/30":
             variant === "coral",
-          "bg-[var(--color-navy-light)] text-[var(--color-slate-light)] border border-white/10":
+          "bg-[var(--color-navy-light)] text-[var(--color-slate-light)] border border-black/10":
             variant === "navy",
-          "border border-white/20 text-[var(--color-slate-light)]":
+          "border border-black/20 text-[var(--color-slate-light)]":
             variant === "outline",
         },
         className
